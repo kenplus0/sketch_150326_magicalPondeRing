@@ -66,6 +66,10 @@ public void draw() {
 	noiseThree += interval;
 	rotation += 0.01f;
 
+	fill(255);
+	rect(0, 0, 150, 20);
+	fill(0);
+	text("framerate"+frameRate, 10, 10);
 }
   static public void main(String[] passedArgs) {
     String[] appletArgs = new String[] { "sketch_150326_magicalPondeRing" };

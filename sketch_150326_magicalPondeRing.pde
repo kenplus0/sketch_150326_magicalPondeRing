@@ -50,4 +50,8 @@ void draw() {
 	noiseThree += interval;
 	rotation += 0.01;
 
+	fill(255);
+	rect(0, 0, 150, 20);
+	fill(0);
+	text("framerate"+frameRate, 10, 10);
 }
